@@ -24,6 +24,7 @@ int main()
             col_end = col;
         }
         
+        // for ( int col2 = row - 1 ; col2 >= 1 ; col2 -- )
         for ( int col2 = col_end - 1 ; col2 >= 1 ; col2 -- )
         {
             cout << col2;
