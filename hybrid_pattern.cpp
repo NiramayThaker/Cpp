@@ -4,12 +4,13 @@ using namespace std;
 
 int main()
 {
-    int n = 5;
-    // cin >> n;
+    int n;
+    cin >> n;
+    
+    cout << endl;
     
     for ( int row = 0 ; row <= n - 1; row ++ )
     {
-
         for ( int t1 = 1; t1 <= (n - row) ; t1 ++ )
         {
             cout << " " << t1 << " ";
@@ -29,9 +30,9 @@ int main()
         {
             cout << " " << t2 << " ";
         }
-      
-        cout << endl;
 
+        cout << endl;
     }
+
     return 0;
 }
