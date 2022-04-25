@@ -21,7 +21,7 @@ int main()
         for ( int col = 1 ; col <= row ; col ++ )
         {
             cout << col;
-            col_end = col;
+            col_end = col; // saves last value beign printed
         }
         
         // for ( int col2 = row - 1 ; col2 >= 1 ; col2 -- )
