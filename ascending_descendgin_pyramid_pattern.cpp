@@ -8,6 +8,8 @@ int main()
     int n;
     cin >> n;
     
+    cout << endl;
+    
     for ( int row = 1 ; row <= n ; row ++)
     {
         
